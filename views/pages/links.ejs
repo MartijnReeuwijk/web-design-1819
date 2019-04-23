@@ -1,0 +1,52 @@
+<%- include('../partials/header'); -%>
+<main>
+  <section>
+
+  </section>
+
+  <div class="dateLine">
+    <h2>Dag - Maand - Jaar</h2>
+    <p id="date"></p>
+  </div>
+
+  <div class="uitleg">
+    <h2>Controls</h2>
+    <p>Bestuur de knoppen met de pijltjes toests</p>
+    <p>click op enter om het geselecteerde te gebruiken</p>
+
+  </div>
+
+  <section class="numberPadHolder">
+    <section id="day" class="numbPadTabs">
+      <% for(var i=1; i < 10; i++) { %>
+      <a href="#<%= [i]%>" class="hoverShadow transition borderSolid">
+
+        <%= [i]%>
+        <div class="myProgress">
+          <div class="myBar">
+          </div>
+        </div>
+      </a>
+      <% } %>
+
+
+      <a href="#0" class="hoverShadow transition borderSolid">
+        0
+        <div class="myProgress">
+          <div class="myBar">
+          </div>
+        </div>
+      </a>
+      <div class="buttonHolders">
+      <button type="button" class=" hoverShadow transition borderSolid numbPadButton ja">Bevestig</button>
+      <button type="button" class="hoverShadow transition borderSolid numbPadButton nee">Delete</button>
+
+</div>
+    </section>
+    <%- include('../partials/clock'); -%>
+
+  </section>
+</main>
+<!--  -->
+
+<%- include('../partials/tails'); -%>
