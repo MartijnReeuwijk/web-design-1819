@@ -1,10 +1,53 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
+<%- include('./partials/header'); -%>
+<main>
+  <section>
 
-  </body>
-</html>
+  </section>
+
+  <div class="dateLine">
+    <h2>Dag - Maand - Jaar</h2>
+    <p id="date"></p>
+  </div>
+
+  <div class="uitleg">
+    <h2>Controls</h2>
+    <p>Bestuur de knoppen met de pijltjes toests</p>
+    <p>click op enter om het geselecteerde te gebruiken</p>
+
+  </div>
+
+  <section class="numberPadHolder">
+    <form id="day" class="numbPad">
+      <% for(var i=1; i < 10; i++) { %>
+      <label class="number hoverShadow transition borderSolid" for="<%= [i]%>">
+        <input class="numberInput" type="radio" value="<%= [i]%>" id="<%= [i]%>" name="date">
+
+        <%= [i]%>
+        <div class="myProgress">
+          <div class="myBar">
+          </div>
+        </div>
+      </label>
+      <% } %>
+
+      <input type="button" class=" hoverShadow transition borderSolid numbPadButton ja">
+
+      <label class="number hoverShadow transition borderSolid" for="0">
+        <input class="numberInput" type="radio" value="0" id="0" name="date">
+        0
+        <div class="myProgress">
+          <div class="myBar">
+          </div>
+        </div>
+      </label>
+
+      <input type="button" class="hoverShadow transition borderSolid numbPadButton nee">
+
+    </form>
+    <%- include('./partials/clock'); -%>
+
+  </section>
+</main>
+<!--  -->
+
+<%- include('./partials/tails'); -%>

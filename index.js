@@ -42,3 +42,8 @@ app.get("/", (req, res) => {
     title: "Eye tracker"
   });
 });
+app.get("/1", (req, res) => {
+  res.render("./pages/links.ejs", {
+    title: "Eye tracker 1"
+  });
+});
