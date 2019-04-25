@@ -30,7 +30,8 @@
   background-size: cover;
 }
 .borderSolid{
-  border: 1px solid black;
+  border: 1px solid #bbb4af;
+
 }
 .backgroundImageContain{
     background-size: contain;

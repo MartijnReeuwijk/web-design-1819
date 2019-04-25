@@ -39,11 +39,18 @@ app.listen(port, () => console.log(`Example app listening on port ${port}!`));
 
 app.get("/", (req, res) => {
   res.render("index", {
-    title: "Eye tracker"
+    title: "Date picker"
+  });
+});
+
+
+app.get("/picker", (req, res) => {
+  res.render("index", {
+    title: "Date picker"
   });
 });
 app.get("/1", (req, res) => {
   res.render("./pages/links.ejs", {
-    title: "Eye tracker 1"
+    title: "Date picker"
   });
 });

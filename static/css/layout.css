@@ -1,21 +1,83 @@
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: HamburgTS, sans-serif !important;
 }
-.dateLine, .uitleg{
-  position: fixed;
-  top: 10px;
-  left: 10px;
-  border: solid black 1px;
-  padding: 10px;
-  z-index: 10;
-  background-color: white;
-}
-.dateLine h2, .uitleg h2{
-  margin:5px 0;
+span{
   font-weight: bold;
 }
-.uitleg{
-  width: 350px;
-  right:10px;
+
+.dateLine, .uitleg {
+  padding: 10px 5px;
+  width: calc(100% - 10px);
+  margin: 0 auto;
+  border: solid #bbb4af 1px;
+  background-color: white;
+  position: relative;
+      border-radius: 8px;
+}
+.dateLine span{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.dateLine h2, .uitleg h2 {
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+.uitleg {
   top: 90px;
+  right: 10px;
+  width: 350px;
+}
+
+.typeOfDateHolder {
+  width: 80%;
+  max-width: 750px;
+  margin: 10px auto;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.holderForLabel{
+  width: calc(25% - 10px);
+    margin: 5px;
+  position: relative;
+  /* background-color: #fff; */
+}
+
+.holderForLabel span{
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  padding: 2px;
+  font-size: 20px;
+}
+.typeOfDateHolder select:focus, #submitDate:focus{
+  background-color: #d9d5d0;
+}
+/* .typeOfDateHolder select:focus > span{
+  color: white;
+} */
+.typeOfDateHolder select , .selectButton{
+  cursor: pointer;
+  text-transform: capitalize;
+  width: 100%;
+  height: 85px;
+  background-color: white;
+  border-radius: 8px;
+  text-align: center;
+  text-align-last: center;
+  font-size: 20px;
+  -webkit-appearance: none;
+}
+.selectButton, span{
+  color: #3b9fe2;
+}
+
+.typeOfDateHolder select option {
+  height: 75px;
+  line-height: 75px;
 }
