@@ -1,5 +1,5 @@
 
-![Demo pic](https://github.com/MartijnReeuwijk/web-design-1819/blob/master/readmeAssets/hero.png)
+![Demo pic](https://github.com/MartijnReeuwijk/web-design-1819/blob/master/readmeassets/hero.png)
 
 # Web design
 Voor webdesign ga ik een date picker maken voor Marijn deze word op maat gemaakt voor Martijn die most heeft van motoriek.
@@ -101,13 +101,13 @@ Omdat Marijn moeite heeft met het gebuik van zijn arm en zijn rechter arm eigeli
 
 ### Keybinds zonders visual clue
 In mijn eerste design had ik geen visual clue voor het gebruik van de keybinds waar door het erg onduidlijk was welke knoppen de gebruik kan gebruiken. Dee heb ik later toegevoegt na wat peer to peer testing
-![Keybinds zonder visual clue](https://github.com/MartijnReeuwijk/web-design-1819/blob/master/readmeAssets/zonder.png)
+![Keybinds zonder visual clue](https://github.com/MartijnReeuwijk/web-design-1819/blob/master/readmeassets/zonder.png)
 
 ### Keybinds visual clue
 De rebinded key geef ik aan met in de linker boven hoek de toets telaten zien. (Zie image hier onder)
 Marijn kan met zijn duim de de trackpad besturen en de knoppen er om heen zoals de spatiebalk en de B en N.
 Marijn kan ook de knoppen rond om de enter en de pijltjes toests goed gebruiken
-![Keybind-Focus](https://github.com/MartijnReeuwijk/web-design-1819/blob/master/readmeAssets/keybindview.png)
+![Keybind-Focus](https://github.com/MartijnReeuwijk/web-design-1819/blob/master/readmeassets/keybindview.png)
 
 #### Keybinds code
 Hier onder een klein stukje van de code hoe ik met de keybinds de focus van de website beinvloed.
