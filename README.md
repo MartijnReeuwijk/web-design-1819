@@ -131,6 +131,8 @@ Dit is de feedback die ik heb gekregen / wat ik zelf heb geobserveerd
  - Hij zag niet dat het een drop Down menu was geef dit een icoon.
  - verander de ``>`` naar een ``.`` dit zorgt dat het duidelijk niet een shift knop is.
 
+####### Feedback paper
+![Feedback](https://github.com/MartijnReeuwijk/web-design-1819/blob/master/readmeassets/feedback.png)
 #Feedback verweking:
   - [] Delete knop moet naar boven in de zo dat hij altijd in view is.
   - [] Extra conformatie knop kan er uit aka focus state van de make date knop.
