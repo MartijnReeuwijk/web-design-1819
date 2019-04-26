@@ -133,6 +133,7 @@ Dit is de feedback die ik heb gekregen / wat ik zelf heb geobserveerd
 
 ####### Feedback paper
 ![Feedback](https://github.com/MartijnReeuwijk/web-design-1819/blob/master/readmeassets/feedback.png)
+
 #Feedback verweking:
   - [] Delete knop moet naar boven in de zo dat hij altijd in view is.
   - [] Extra conformatie knop kan er uit aka focus state van de make date knop.
