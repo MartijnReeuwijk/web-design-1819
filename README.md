@@ -95,6 +95,19 @@ Martijn gaat naar de bezorgings website van de Appie en dan deze deze data invoe
 - Single layer keybinds.
 - Visual clue voor de keybinds.
 
+## Design principles
+Hier zijn de design principles en hoe ik me er op heb gefocused
+
+### Prioritise identity
+Door het bekijken van het mijn bewegingen en hoe hij voor zijn computer zit weet ik dat ik de rechterkant van het toetsenboord kan gebruiken daarom heeft die kant een prioriteit.
+zodat hij niet onconfortable moet zitten.
+
+### Add nonsense
+Ik heb eigelijk de nonsense weg gehaald om het beter in de style van de AH zal passen, eerst was de select background een geanimeerde gradiant.
+
+### Ignore conventions
+Voor iemand met de manier van beweging/interactie die Marijn heeft zijn zo ver ik weet geen conventions, het enige wat ik heb gebruikt is de number pad form van 1/9 met de 0 er onder.
+
 
 # Keybinds
 Omdat Marijn moeite heeft met het gebuik van zijn arm en zijn rechter arm eigelijk niet kan gebruiken, heb ik een maar aantal key van het toetsenboord en daar de functionalitijd van de website aan toegepast. Zo kan hij met de toetsen die voor hem het handigst zijn door de website navigeren.
@@ -131,7 +144,7 @@ Dit is de feedback die ik heb gekregen / wat ik zelf heb geobserveerd
  - Hij zag niet dat het een drop Down menu was geef dit een icoon.
  - verander de ``>`` naar een ``.`` dit zorgt dat het duidelijk niet een shift knop is.
 
-####### Feedback paper
+### Feedback paper
 ![Feedback](https://github.com/MartijnReeuwijk/web-design-1819/blob/master/readmeassets/feedback.png)
 
 #Feedback verweking:
