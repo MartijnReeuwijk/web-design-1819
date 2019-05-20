@@ -1,13 +1,5 @@
 let hover = Array.from(document.getElementsByClassName("numberInput"));
 hover.forEach(elem => {
-  // elem.addEventListener("mouseover", move);
-  // elem.addEventListener("mouseout", remove);
-  // elem.addEventListener("mouseover", addGradi);
-  // elem.addEventListener("mouseout", removeGradi);
-
-  // elem.addEventListener("mouseover", addHover);
-  // elem.addEventListener("mouseout", removeHover);
-
   elem.addEventListener("focus", focus);
 });
 
@@ -54,16 +46,26 @@ document.querySelector("body").onkeypress = function(e) {
   }
   if (event.key == "=") {
     e.preventDefault();
+    document.getElementsByClassName('saveHolder')[0].classList.add("slideIn")
+    saveTimer();
     document.getElementById("submitDate").focus();
+    document.getElementById("submitDate").click();
   }
   if (event.key == "/") {
-    console.log("Reeee");
     e.preventDefault();
     document.querySelector("#day label:first-child").focus();
   }
   if (event.key == ".") {
     e.preventDefault();
     document.querySelector("#reset").focus();
+  }
+
+  // if (event.key == 37 || event.key == 38 ||event.key == 39 ||event.key == 40) {
+  //   e.preventDefault();
+  //   document.querySelector("#reset").focus();
+  // }
+  if (event.key) {
+    playKey();
   }
 };
 
@@ -135,104 +137,20 @@ function getNthDay(month, day, n) {
   dateInner.innerHTML = d;
 }
 
+function saveTimer(){
+  var audio = new Audio('hell.mp3');
+  audio.play();
+  setTimeout(function () {
+    document.getElementsByClassName('saveHolder')[0].classList.remove("slideIn")
+    audio.pause();
+    audio.currentTime = 0;
+  }, 5000);
+}
+
+function playKey() {
+  var audio = new Audio('key.mp3');
+  audio.play();
+}
+
 document.getElementById("submitDate").addEventListener("click", getDayDate);
 document.getElementById("reset").addEventListener("click", deleteDate);
-
-// now i need to stop the js from triggering for like 4 sec
-// code loopt niet lekker maar oke is een demo
-// eye tracking
-function addHover() {
-  // // console.log(this.childNodes[3]);
-  // let hover = Array.from(document.getElementsByClassName("number"));
-  // hover.forEach(elem => {
-  //   elem.childNodes[3].childNodes[1].classList.remove("backgroundGradiant");
-  // });
-  // this.childNodes[3].childNodes[1].classList.add("backgroundGradiant");
-  // var that = this;
-  //
-  // setTimeout(function () {
-  //   // console.log(that.childNodes[3].childNodes[1]);
-  //   that.childNodes[1].checked = true;
-  // }, 2000);
-}
-
-function removeHover() {
-  //   let all = document.getElementsByClassName('number')
-  // all.forEach(elem => {
-  //   elem.childNodes[3].childNodes[1].classList.remove("backgroundGradiant");
-  //
-  // });
-}
-
-// function checkArrowKeys(e){
-//     var arrs= ['left', 'up', 'right', 'down'],
-//     key= window.event? event.keyCode: e.keyCode;
-//     if(key && key>36 && key<41){
-//       console.log(this);
-//       console.log("test");
-//     };
-// }
-// document.onkeydown= checkArrowKeys;
-
-// //
-// let hover = Array.from(document.getElementsByClassName('number'));
-// hover.forEach(elem => {
-//   // elem.addEventListener("mouseover", move);
-//   // elem.addEventListener("mouseout", remove);
-//   elem.addEventListener("mouseover", addGradi);
-//   elem.addEventListener("mouseout", removeGradi);
-// });
-// // moet de correcte add hebben
-// function addGradi() {
-//   // first removeall the things
-//   let hover = Array.from(document.getElementsByClassName('number'));
-//   hover.forEach(elem => {
-//   elem.childNodes[1].childNodes[1].classList.remove("focused");
-//   });
-//
-//     this.childNodes[1].childNodes[1].classList.add("backgroundGradiant");
-//     let that = this.childNodes[1].childNodes[1]
-//     console.log(that);
-//     setTimeout(function () {
-//       test(that)
-//     }, 2000);
-//     function test(that) {
-//
-//       that.classList.add("focused");
-//     }
-//
-// }
-//
-// function removeGradi() {
-//   this.childNodes[1].childNodes[1].classList.remove("backgroundGradiant");
-//
-// }
-//
-//
-//
-//
-//
-// //
-// // // This is still kinda shitty but works for now
-// // function remove() {
-// //   this.childNodes[1].childNodes[1].classList.remove("backgroundGradiant");
-// //   this.childNodes[1].childNodes[1].style.width = 0 + '%';
-// // }
-// //
-// // function move() {
-// //   this.childNodes[1].childNodes[1].classList.add("backgroundGradiant");
-// //   this.childNodes[1].childNodes[1].style.width = 0 + '%';
-// //   let element = this.childNodes[1].childNodes[1]
-// //   let width = 1;
-// //   let id = setInterval(frame, 100);
-// //
-// //   function frame() {
-// //     if (width >= 100 && width !== undefined && this.childNodes[1].childNodes[1].contains('backgroundGradiant')) {
-// //       clearInterval(id);
-// //     } else {
-// //       width++;
-// //       element.style.width = width + '%';
-// //       // span.innerHTML = width * 1  + '%';
-// //     }
-// //   }
-// // }

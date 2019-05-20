@@ -37,7 +37,7 @@
   text-align: center;
 }
 .numbPad label {
-  background-color: #fff;
+  background-color: #C0C0B4;
   width: calc(33% - 10px);
   margin: 5px;
   border-radius: 8px;
@@ -47,6 +47,7 @@
   position: relative;
   color: #303030;
   cursor: pointer;
+
 
 }
 .numbPad input[type="radio"]{
@@ -82,6 +83,8 @@ input[type="radio"]:checked {
   width: 100%;
   height: 100%;
   border-radius: 8px;
+  background-color: #96968C;
+  color: white;
 }
 #reset:focus{
   background-color: #d9d5d0;
@@ -106,7 +109,7 @@ input[type="radio"]:checked {
 }
 
 .nee {
-  font-size: 32px;
+  font-size: 1.4rem;
   cursor: pointer;
   color: #f0899c;
   background-color: white;
