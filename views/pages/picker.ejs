@@ -8,34 +8,7 @@
       Saving to tape drive
     </div>
 
-    <form  id="day" class="numbPad">
-      <% for(var i=1; i < 10; i++) { %>
-      <label title="spatie of enter om dit nummer te selecteren" class="number hoverShadow transition borderSolid" for="<%= [i]%>">
-        <% if (i === 1) {%>
-          <span>/</span>
-    <% } %>
-        <input class="numberInput" type="radio" value="<%= [i]%>" id="<%= [i]%>" name="date">
-        <%= [i]%>
-      </label>
-      <% } %>
 
-      <div class=" hoverShadow transition borderSolid numbPadButton ja"> </div>
-
-      <label class="number hoverShadow transition borderSolid" for="0">
-        <input class="numberInput" type="radio" value="0" id="0" name="date">
-        0
-        <div class="myProgress">
-          <div class="myBar">
-          </div>
-        </div>
-      </label>
-
-<div class="numbPadButton">
-  <span> . </span>
-  <input type="button" id="reset" value="Reset date" class="hoverShadow transition borderSolid nee">
-</div>
-
-    </form>
     <%- include('../partials/clock'); -%>
 
   </section>

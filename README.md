@@ -103,7 +103,7 @@ Door het bekijken van het mijn bewegingen en hoe hij voor zijn computer zit weet
 zodat hij niet onconfortable moet zitten.
 
 ### Add nonsense
-Ik heb eigelijk de nonsense weg gehaald om het beter in de style van de AH zal passen, eerst was de select background een geanimeerde gradiant.
+Voor de Add nonsense heb ik de style van een Commodore64 proberen te emuleren. Dit heb ik gedaan door het toevoegen met van een Key geluid zo dat je meer een mechanisch keyboard heb. Ook heb ik Tape saving toegepast waar bij het opstaan een tape geluid geeft zo als de ouden Commodore64.
 
 ### Ignore conventions
 Voor iemand met de manier van beweging/interactie die Marijn heeft zijn zo ver ik weet geen conventions, het enige wat ik heb gebruikt is de number pad form van 1/9 met de 0 er onder.
@@ -133,7 +133,7 @@ document.querySelector("body").onkeypress = function(e) {
 }
 ```
 
-#Feedback
+##Feedback
 Dit is de feedback die ik heb gekregen / wat ik zelf heb geobserveerd
 - Hij heeft meer moeite met motoriek dan ik eerst had verwacht.
  - Knoppen zijn correct formaat.
@@ -147,12 +147,17 @@ Dit is de feedback die ik heb gekregen / wat ik zelf heb geobserveerd
 ### Feedback paper
 ![Feedback](https://github.com/MartijnReeuwijk/web-design-1819/blob/master/readmeassets/feedback.png)
 
-#Feedback verweking:
+##Feedback verweking:
   - [] Delete knop moet naar boven in de zo dat hij altijd in view is.
   - [] Extra conformatie knop kan er uit aka focus state van de make date knop.
   - [x] Verander de text van MakeDate.
   - [x] Hij zag niet dat het een drop Down menu was geef dit een icoon.
   - [x] verander de ``>`` naar een ``.`` dit zorgt dat het duidelijk niet een shift knop is.
+
+##Feedback sessie 2
+### Feedback paper
+###Feedback verweking:
+
 
 
 ## Authors

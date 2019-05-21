@@ -7,10 +7,14 @@
 .inlineFlex {
   display: inline-flex;
 }
+/* div:nth-child(6) */
 
-.fadeOut{
-  opacity: 0
+/* .fadeOut:first-of-type{
+} */
+.fadeOut > div:not(:last-of-type) {
+  opacity: .25;
 }
+
 .borderRadius {
   border-radius: 5px;
 }
@@ -43,5 +47,7 @@
 .bad{
   color: #f9473a;
 }
+
+
 
   /* <p> <% console.log(data[0].measurements.bapLevel) %> </p> */

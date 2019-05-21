@@ -1,45 +1,106 @@
 <section class="typeOfDateHolder">
+<div class="weekHolder">
+  <h2><span>elke week</span> om <span>10:00</span></h2>
+  <!-- <div class="holderForLabel">
+    <span>p</span>
+    <select class="borderSolid" id="weekPick" name="datePlacement">
+      <option value="1">Eerste</option>
+      <option value="2">Tweede</option>
+      <option value="3">Derde</option>
+      <option value="4">Vierde</option>
+    </select>
+  </div> -->
 
-  <div class="dateLine">
-    <span>B,N of \ om te "backspace"</span>
-    <h2>Dag - Maand - Jaar</h2>
-    <p id="date"></p>
-  </div>
+  <div class="holderForLabel">
+  <span>I</span>
+    <select class="borderSolid" id="dayPick" name="typeOfday">
+      <option value="maandag">maandag</option>
+      <option value="dinsdag">dinsdag</option>
+      <option value="woensdag">woensdag</option>
+      <option value="donderdag">donderdag</option>
+      <option value="vrijdag">vrijdag</option>
+      <option value="zaterdag">zaterdag</option>
+      <!-- <option value="7">zondag</option> -->
+    </select>
+    </div>
 
-<div class="holderForLabel">
-  <span>p</span>
-  <select class="borderSolid" id="weekPick" name="datePlacement">
-    <option value="1">Eerste</option>
-    <option value="2">Tweede</option>
-    <option value="3">Derde</option>
-    <option value="4">Vierde</option>
-  </select>
-</div>
-
-<div class="holderForLabel">
-<span>[</span>
-  <select class="borderSolid" id="dayPick" name="typeOfday">
-    <option value="1">maandag</option>
-    <option value="2">dinsdag</option>
-    <option value="3">woensdag</option>
-    <option value="4">donderdag</option>
-    <option value="5">vrijdag</option>
-    <option value="6">zaterdag</option>
-    <option value="7">zondag</option>
-  </select>
+    <div class="holderForLabel">
+  <span>O</span>
+    <select class="borderSolid" id="weekPick" name="month">
+      <option value="elke week">elke week</option>
+      <option value="Om de week">Om de week</option>
+    </select>
   </div>
 
   <div class="holderForLabel">
-<span>]</span>
-  <select class="borderSolid" id="monthPick" name="month">
-    <option value="0">week</option>
-    <option value="1">Maand</option>
-    <option value="2">Om de week</option>
-    <option value="3">Om de maand</option>
-  </select>
+    <span>P</span>
+    <input type="time" id="timeComWeek" class="timeCom" name="timeCom"
+           min="9:00" max="20:00" value="10:00" required>
+         </div>
+
+  <div class="holderForLabel">
+    <span>[</span>
+    <button type="submit" name="button" id="deleteWeek" class="hoverShadow transition borderSolid selectButton smallerButton delete">Delete</button>
+  </div>
+
+  <div class="holderForLabel">
+    <span>]</span>
+    <button type="submit" name="button" id="addWeek" class="hoverShadow transition borderSolid selectButton smallerButton add">Add</button>
+  </div>
 </div>
-<div class="holderForLabel">
-  <span>=</span>
-  <button type="submit" name="button" id="submitDate" class="hoverShadow transition borderSolid selectButton">Bevestig date</button>
+
+
+
+<div class="maandHolder">
+  <h2><span id="maandWeekPickFirst">Eerste</span> <span id="maandWeekPickday">maandag</span> <span id="maandWeekPickMonth">van de maand</span> om <span id="maandWeekPickTime">10:00</span></h2>
+  <div class="holderForLabel">
+    <span>J</span>
+    <select class="borderSolid" id="maandWeekPick" name="datePlacement">
+      <option value="Eerste">Eerste</option>
+      <option value="Tweede">Tweede</option>
+      <option value="Derde">Derde</option>
+      <option value="Vierde">Vierde</option>
+      <option value="Vijfde">Vijfde</option>
+    </select>
+  </div>
+
+  <div class="holderForLabel">
+  <span>K</span>
+    <select class="borderSolid" id="maanddayPick" name="typeOfday">
+      <option value="maandag">maandag</option>
+      <option value="dinsdag">dinsdag</option>
+      <option value="woensdag">woensdag</option>
+      <option value="donderdag">donderdag</option>
+      <option value="vrijdag">vrijdag</option>
+      <option value="zaterdag">zaterdag</option>
+      <!-- <option value="7">zondag</option> -->
+    </select>
+    </div>
+
+    <div class="holderForLabel">
+  <span>L</span>
+    <select class="borderSolid" id="frequentWeek" name="month">
+      <option value="elke maand">elke maand</option>
+      <option value="Om de maand">Om de maand</option>
+    </select>
+  </div>
+
+  <div class="holderForLabel">
+    <span>;</span>
+    <input type="time" id="maandtimeCom" class="timeCom" name="timeCom"
+           min="9:00" max="20:00" value="10:00" required>
+         </div>
+
+  <div class="holderForLabel">
+    <span>'</span>
+    <button type="submit" name="button" id="maandDelte" class="hoverShadow transition borderSolid selectButton smallerButton delete">Delete</button>
+  </div>
+
+  <div class="holderForLabel">
+    <span>\</span>
+    <button type="submit" name="button" id="maandAdd" class="hoverShadow transition borderSolid selectButton smallerButton add">Add</button>
+  </div>
 </div>
+
+
 </section>
