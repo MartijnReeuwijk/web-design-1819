@@ -11,8 +11,11 @@
 
 /* .fadeOut:first-of-type{
 } */
-.fadeOut > div:not(:last-of-type) {
+.fadeOut > :not(:last-of-type) {
   opacity: .25;
+}
+.fadeOut > :last-of-type {
+  opacity: .5;
 }
 
 .borderRadius {

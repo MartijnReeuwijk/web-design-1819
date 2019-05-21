@@ -1,5 +1,5 @@
 
-![Demo pic](https://github.com/MartijnReeuwijk/web-design-1819/blob/master/readmeassets/hero.png)
+![Demo pic](https://github.com/MartijnReeuwijk/web-design-1819/blob/master/readmeassets/newHero.png)
 
 # Web design
 Voor webdesign ga ik een date picker maken voor Marijn deze word op maat gemaakt voor Martijn die most heeft van motoriek.
@@ -110,6 +110,8 @@ Voor iemand met de manier van beweging/interactie die Marijn heeft zijn zo ver i
 
 
 # Keybinds
+![First design pic](https://github.com/MartijnReeuwijk/web-design-1819/blob/master/readmeassets/hero1.png)
+
 Omdat Marijn moeite heeft met het gebuik van zijn arm en zijn rechter arm eigelijk niet kan gebruiken, heb ik een maar aantal key van het toetsenboord en daar de functionalitijd van de website aan toegepast. Zo kan hij met de toetsen die voor hem het handigst zijn door de website navigeren.
 
 ### Keybinds zonders visual clue
@@ -154,9 +156,22 @@ Dit is de feedback die ik heb gekregen / wat ik zelf heb geobserveerd
   - [x] Hij zag niet dat het een drop Down menu was geef dit een icoon.
   - [x] verander de ``>`` naar een ``.`` dit zorgt dat het duidelijk niet een shift knop is.
 
+# Redesign repeatable date picker
+![Redesign](https://github.com/MartijnReeuwijk/web-design-1819/blob/master/readmeassets/newHero.png)
+Ik heb na feedback het concept van mijn project veranderd van een datepicker naar een repeatable date picker.
+
 ##Feedback sessie 2
+- [x] Delete knop niet duidelijk vernader de kleur
+- [x] Maand picker was niet duidelijk want hij moet niet altijd open staan.
+- [x] pijltjes toets navigeren was niet duidelijk.
+
+
 ### Feedback paper
-###Feedback verweking:
+
+###Feedback conclusie:
+De date repeater had op een anderen manier vormgegeven kunnen worden zodat hij duidlijker was en waarschijnlijk met minder clicks.
+overall heb ik er veel van geleerd maar zou ik het volgende keer anders opbouwen.
+
 
 
 

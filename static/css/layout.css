@@ -163,7 +163,9 @@ input[type=time] {
 h2 span {
   color: black;
 }
-
+.delete {
+  color: #F5351E;
+}
 .timeSelect {
   background-repeat: no-repeat;
   /* background-image: url("https://banner2.kisspng.com/20180722/aoz/kisspng-computer-mouse-hourglass-pointer-cursor-timer-animation-5b5535146bc328.9046010815323108044414.jpg"); */
