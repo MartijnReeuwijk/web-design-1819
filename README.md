@@ -108,6 +108,7 @@ Hier zijn de design principles en hoe ik me er op heb gefocust;
 ### Prioritise identity
 
 Door het bekijken van de bewegingen en hoe hij voor zijn computer zit weet ik dat ik de rechterkant van het toetsenbord kan gebruiken. Daarom heeft die kant een prioriteit, zodat hij niet oncofortabel hoeft te zitten.
+Ik heb meer identity toegevoegt bij de add nonsense door het te focusen op Commodore64.
 
 ### Add nonsense
 
